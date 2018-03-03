@@ -1,4 +1,4 @@
-# Alexa with Yoda quotes
+# Alexa movie skills
 
 ## Introduction
 
@@ -27,7 +27,7 @@ This skill gets deployed instantly. Also, Hasura automatically generates SSL cer
 (Make sure you have [hasura-cli](https://docs.hasura.io/0.15/manual/install-hasura-cli.html))
 
 ```
-$ hasura quickstart rishi/alexa-yoda-bot
+$ hasura quickstart bpvandana/alexa_movie_skill
 $ cd alexa-yoda-bot
 $ git add . && git commit -m "Initial Commit"
 $ git push hasura master
@@ -40,7 +40,7 @@ To link it with your Amazon Echo Device, go to your [Amazon developer console](h
 1. Create a new skill. Call it `Suggest Movie`. Give the invocation name as `suggest movie`. Click next.
 
 2. Add this intent schema
-
+```
 {
   "intents": [
     {
@@ -76,7 +76,7 @@ suggestMovie suggest me a movie
 
 	Put the default URL as `https://bot.<cluster-name>.hasura-app.io/movies`. (Run `$ hasura cluster status` from root directory to know your cluster name).
 
-	**Note**: For quick testing, we have one skill service live at https://bot.dedication76.hasura-app.io/yoda_quotes. (This test service will work only if you have followed 1 and 2)
+	**Note**: For quick testing, we have one skill service live at https://bot.incipiently69.hasura-app.io/movie(This test service will work only if you have followed 1 and 2)
 
 	Click next.
 
@@ -94,4 +94,4 @@ You might want to go through the Flask-ask docs (a very quick read).
 
 ## Support
 
-If you happen to getstuck at any point, feel free to mail me at tanmaig@gmail.com. Also, if you find an error or a bug, please raise an issue [here](https://github.com/bpvandana/alexa-movie).
+If you happen to getstuck at any point, feel free to mail me at vandanakumari291@gmail.com. Also, if you find an error or a bug, please raise an issue [here](https://github.com/bpvandana/Alexa_movie_skill).
