@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "spoken_languages" TYPE text;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "spoken_languages" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "spoken_languages" DROP NOT NULL;
+  type: run_sql

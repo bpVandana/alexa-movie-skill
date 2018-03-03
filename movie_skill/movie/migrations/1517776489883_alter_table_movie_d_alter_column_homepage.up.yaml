@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "homepage" TYPE text;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "homepage" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "homepage" DROP NOT NULL;
+  type: run_sql

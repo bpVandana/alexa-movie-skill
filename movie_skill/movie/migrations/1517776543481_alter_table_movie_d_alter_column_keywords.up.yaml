@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "keywords" TYPE text;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "keywords" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "keywords" DROP NOT NULL;
+  type: run_sql

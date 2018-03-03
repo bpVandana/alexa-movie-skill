@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - response_time
+      - error
+      - id
+      - answer
+      filter: {}
+    role: anonymous
+    table: logs
+  type: create_update_permission

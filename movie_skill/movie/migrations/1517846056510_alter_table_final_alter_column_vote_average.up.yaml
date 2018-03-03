@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "final" ALTER COLUMN "vote_average" TYPE integer;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "final" ALTER COLUMN "vote_average" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "final" ALTER COLUMN "vote_average" DROP NOT NULL;
+  type: run_sql

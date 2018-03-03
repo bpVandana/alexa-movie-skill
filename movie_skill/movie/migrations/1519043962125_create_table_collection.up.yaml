@@ -1,0 +1,12 @@
+- args:
+    sql: CREATE TABLE "collection"("budget" numeric , "genres" text , "homepage" text
+      , "id" numeric , "keywords" text , "original_language" text , "original_title"
+      text , "overview" text , "popularity" numeric , "production_companies" text
+      , "production_countries" text , "release_date" date , "revenue" numeric , "runtime"
+      numeric , "spoken_languages" text , "status" text , "tagline" text , "title"
+      text , "vote_average" numeric , "vote_count" numeric , "No" integer NOT NULL,
+      PRIMARY KEY ("No") )
+  type: run_sql
+- args:
+    name: collection
+  type: add_existing_table_or_view

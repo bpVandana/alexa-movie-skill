@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "runtime" TYPE numeric;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "runtime" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "movie_d" ALTER COLUMN "runtime" DROP NOT NULL;
+  type: run_sql

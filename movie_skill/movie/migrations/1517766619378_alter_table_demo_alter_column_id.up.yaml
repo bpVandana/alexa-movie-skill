@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "demo" ALTER COLUMN "id" TYPE integer;
+  type: run_sql
+- args:
+    sql: ALTER TABLE ONLY "demo" ALTER COLUMN "id" SET DEFAULT nextval('demo_id_seq'::regclass);
+  type: run_sql
+- args:
+    sql: ALTER TABLE "demo" ALTER COLUMN "id" SET NOT NULL;
+  type: run_sql

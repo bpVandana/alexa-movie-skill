@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "logs"("id" serial NOT NULL, "answer" text NOT NULL, "response
+      time" timetz NOT NULL, "error" boolean NOT NULL DEFAULT False, PRIMARY KEY ("id")
+      )
+  type: run_sql
+- args:
+    name: logs
+  type: add_existing_table_or_view

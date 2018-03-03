@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: incipiently69-hasura
+  data: null
+  kubeContext: incipiently69
+  name: incipiently69

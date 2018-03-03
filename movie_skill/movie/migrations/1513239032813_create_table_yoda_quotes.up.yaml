@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "yoda_quotes"("id" serial NOT NULL, "quote" text NOT NULL, PRIMARY
+      KEY ("id") )
+  type: run_sql
+- args:
+    name: yoda_quotes
+  type: add_existing_table_or_view

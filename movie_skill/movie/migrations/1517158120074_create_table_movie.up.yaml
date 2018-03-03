@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "movie"("title" text NOT NULL, "id" numeric NOT NULL, PRIMARY
+      KEY ("id") )
+  type: run_sql
+- args:
+    name: movie
+  type: add_existing_table_or_view

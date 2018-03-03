@@ -1,0 +1,28 @@
+- args:
+    permission:
+      columns:
+      - budget
+      - "No"
+      - vote_count
+      - vote_average
+      - title
+      - tagline
+      - status
+      - spoken_languages
+      - runtime
+      - revenue
+      - release_date
+      - production_countries
+      - production_companies
+      - popularity
+      - overview
+      - original_title
+      - original_language
+      - keywords
+      - id
+      - homepage
+      - genres
+      filter: {}
+    role: anonymous
+    table: collect
+  type: create_update_permission
