@@ -94,4 +94,4 @@ You might want to go through the Flask-ask docs (a very quick read).
 
 ## Support
 
-If you happen to getstuck at any point, feel free to mail me at vandanakumari291@gmail.com. Also, if you find an error or a bug, please raise an issue [here](https://github.com/bpvandana/Alexa_movie_skill).
+If you happen to getstuck at any point, feel free to mail me at vandanakumari291@gmail.com. Also, if you find an error or a bug, please raise an issue [here](https://github.com/bpvandana/alexa-movie-skill).
